@@ -2,7 +2,6 @@
 Regime change detection model applied to Apple Inc. (AAPL) stock returns using a two-state Markov Switching Model to identify structural breaks from 2018 to 2025
 
 ---
-# Financial Econometrics - Project 3
 ## Regime Change Detection: Apple Inc. (AAPL) 2018–2025
 
 ---
@@ -75,3 +74,46 @@ financial-econometrics-project3/
 ├── Financial_Econometrics_Project3.ipynb   # Main notebook
 
 └── README.md                               # This file
+
+---
+
+## Key Findings
+1. Two statistically distinct regimes confirmed in 
+   Apple's return history - calm and crisis states 
+   differ by approximately 3x in annualised volatility
+2. The COVID-19 crash of March 2020 is identified as 
+   the most prominent regime transition in the sample
+3. The 2-regime model outperforms a single constant 
+   distribution baseline on both AIC and BIC criteria
+4. Crisis regimes are highly persistent once initiated — 
+   lasting several weeks on average before reverting
+
+---
+
+## How to Run
+1. Open `Financial_Econometrics_Project3.ipynb` in 
+   Google Colab or Jupyter Notebook
+2. Run **Runtime → Run All**
+3. All data is downloaded automatically via the 
+   yfinance API - no manual data download required
+
+---
+
+## References
+- Hamilton, James D. "A New Approach to the Economic 
+  Analysis of Nonstationary Time Series and the Business 
+  Cycle." *Econometrica*, vol. 57, no. 2, 1989, 
+  pp. 357–384.
+- Hull, John C. *Options, Futures, and Other Derivatives*. 
+  10th ed., Pearson, 2018.
+- Tsay, Ruey S. *Analysis of Financial Time Series*. 
+  3rd ed., Wiley, 2010.
+- Yahoo Finance. "Apple Inc. (AAPL) Historical Data." 
+  *Yahoo Finance*, 2025.
+
+---
+
+## Course Information
+**Course:** Financial Econometrics / Applied Time Series  
+**Project:** Project 3 - Regime Change Detection  
+**Submitted to:** chitzlee@gmail.com
