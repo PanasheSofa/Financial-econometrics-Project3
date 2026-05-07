@@ -85,7 +85,7 @@ financial-econometrics-project3/
    the most prominent regime transition in the sample
 3. The 2-regime model outperforms a single constant 
    distribution baseline on both AIC and BIC criteria
-4. Crisis regimes are highly persistent once initiated — 
+4. Crisis regimes are highly persistent once initiated - 
    lasting several weeks on average before reverting
 
 ---
